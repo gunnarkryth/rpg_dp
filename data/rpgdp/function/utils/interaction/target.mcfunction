@@ -7,5 +7,3 @@ function rpgdp:classes/reset_attributes
 execute if entity @s[scores={player_class=1}] run function rpgdp:classes/warrior
 execute if entity @s[scores={player_class=2}] run function rpgdp:classes/mage
 execute if entity @s[scores={player_class=3}] run function rpgdp:classes/rogue
-
-scoreboard players reset @s right_click_warped_fungus_on_a_stick
